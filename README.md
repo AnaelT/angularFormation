@@ -1,2 +1,2 @@
 # angularFormation
-Repo cotnenant les exercices du cours Angular  d'OpenClassRoom
+Repo contenant les exercices du cours Angular  d'OpenClassRoom
