@@ -1,0 +1,21 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    {{ title }}
+  </h1>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <ul class="list-group">
+        <app-post *ngFor="let post of posts"
+        [title]="post.title"
+        [content]="post.content"
+        [loveIts]="post.loveIts"></app-post>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
